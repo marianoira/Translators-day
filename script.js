@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span style="font-size: 2em; color: #ffc107; font-weight: bold;">${escolhaRestaurante}</span>!
         `;
         // CORRIGIDO AQUI: Chama a div com ID 'etapaFinal'
-        mostrarEtapa('Final'); 
+        mostrarEtapa('Final'); // Etapa Final
     });
 
     // Inicia o site na primeira etapa
