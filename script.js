@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span style="font-size: 1.5em; color: #dc3545; font-weight: bold;">Bela escolha, mamãe!</span><br><br>
             <span style="font-size: 1.8em; color: #007bff; font-weight: bold;">FELIZ DIA DOS TRADUTORES!!</span><br>
             Se arrume e fique mais bela ainda! 🎉<br><br>
-            Te esperamos **20h** no local escolhido:<br>
+            Te esperamos **19h** no local escolhido:<br>
             <span style="font-size: 2em; color: #ffc107; font-weight: bold;">${escolhaRestaurante}</span>!
         `;
         // CORRIGIDO AQUI: Chama a div com ID 'etapaFinal'
