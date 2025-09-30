@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Funções de controle de fluxo
     const mostrarEtapa = (numero) => {
         etapas.forEach(etapa => etapa.classList.remove('ativa'));
+        // CORRIGIDO AQUI: Usa string 'etapa' + número/nome
         document.getElementById(`etapa${numero}`).classList.add('ativa');
         etapaAtual = numero;
     };
@@ -72,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.opcao-btn').forEach(b => b.classList.remove('selecionada'));
                 // Adiciona a classe 'selecionada' no botão clicado
                 btn.classList.add('selecionada'); 
-                escolhaRestaurante = opcao; // <<-- ESSA LINHA ARMAZENA O RESTAURANTE
+                escolhaRestaurante = opcao; 
                 mostrarEtapa(4); // Vai para a confirmação de certeza
             };
             opcoesEtapa3.appendChild(btn);
@@ -126,7 +127,8 @@ document.addEventListener('DOMContentLoaded', () => {
             Te esperamos **20h** no local escolhido:<br>
             <span style="font-size: 2em; color: #ffc107; font-weight: bold;">${escolhaRestaurante}</span>!
         `;
-        mostrarEtapa('Final'); // Etapa Final
+        // CORRIGIDO AQUI: Chama a div com ID 'etapaFinal'
+        mostrarEtapa('Final'); 
     });
 
     // Inicia o site na primeira etapa
