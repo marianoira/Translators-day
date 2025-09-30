@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.opcao-btn').forEach(b => b.classList.remove('selecionada'));
                 // Adiciona a classe 'selecionada' no botão clicado
                 btn.classList.add('selecionada'); 
-                escolhaRestaurante = opcao;
+                escolhaRestaurante = opcao; // <<-- ESSA LINHA ARMAZENA O RESTAURANTE
                 mostrarEtapa(4); // Vai para a confirmação de certeza
             };
             opcoesEtapa3.appendChild(btn);
