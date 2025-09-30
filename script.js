@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const iniciarEtapa3 = () => {
+        document.getElementById('titulo-etapa3').textContent = 'Hora da Educação Positiva!';
         document.getElementById('pergunta-etapa3').textContent = 'Você prefere ir encontrar seus filhos fora da ilha ou prefere esperar eles voltarem para ilha e encontrá-los após o trabalho?';
         opcoesEtapa3.innerHTML = ''; // Limpa opções anteriores
         
