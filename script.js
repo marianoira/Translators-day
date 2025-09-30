@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Te esperamos **20h** no local escolhido:<br>
             <span style="font-size: 2em; color: #ffc107; font-weight: bold;">${escolhaRestaurante}</span>!
         `;
-        mostrarEtapa(5); // Etapa Final
+        mostrarEtapa('Final'); // Etapa Final
     });
 
     // Inicia o site na primeira etapa
