@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             opcoes = ["Temakeria", "Japa da Quitanda", "Mamma Jamma", "OGGI", "Babbo"];
         } else if (escolhaPrincipal === 'ilha') {
             pergunta = 'Qual destino gastronômico na ilha você prefere?';
-            opcoes = ["Lagostine Pizza", "Lagostine Japa", "Leirinha"];
+            opcoes = ["Lagostine Pizza", "Lagostine Japa", "Leirinha", "Sushiro"];
         } else {
             // Se, por algum motivo, a escolha principal for nula, retorna
             iniciarEtapa3();
