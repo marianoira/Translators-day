@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia dos Tradutores, Ana Cristina!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Surpresa do Dia dos Tradutores!</h1>
+        
+        <div id="etapa1" class="etapa ativa">
+            <h2>Confirmação de Identidade:</h2>
+            <p>Confirme que você é **Ana Cristina Noira - Tradutora Juramentada**</p>
+            <div class="opcoes-sim-nao">
+                <button id="btnSim" class="btn-principal">SIM</button>
+                <button id="btnNao" class="btn-secundario">NÃO</button>
+            </div>
+            <p id="erro1" class="mensagem-erro"></p>
+        </div>
+
+        <div id="etapa2" class="etapa">
+            <h2>Confirmação Familiar:</h2>
+            <p>Confirme por escrito o nome dos seus filhos (apenas os nomes, por favor!):</p>
+            <form id="formFilhos">
+                <input type="text" class="input-filho" placeholder="Nome do Filho 1" required>
+                <input type="text" class="input-filho" placeholder="Nome do Filho 2" required>
+                <input type="text" class="input-filho" placeholder="Nome do Filho 3" required>
+                <input type="text" class="input-filho" placeholder="Nome do Filho 4" required>
+                <input type="text" class="input-filho" placeholder="Nome do Filho 5" required>
+                <button type="submit" class="btn-principal">CONFIRMAR NOMES</button>
+            </form>
+            <p id="erro2" class="mensagem-erro"></p>
+        </div>
+
+        <div id="etapa3" class="etapa">
+            <h2 id="titulo-etapa3">Hora da Educação Positiva!</h2>
+            <p id="pergunta-etapa3" class="pergunta"></p>
+            <div id="opcoes-etapa3" class="opcoes-multipla-escolha">
+                </div>
+            <p id="erro3" class="mensagem-erro"></p>
+        </div>
+
+        <div id="etapa4" class="etapa">
+            <div class="caixa-confirmacao">
+                <h3>Voce tem certeza da sua escolha?</h3>
+                <p>Seus filhos são prósperos e nesse dia você merece o que você estiver com vontade, **não escolha pelo mais barato** 😉.</p>
+                <button id="btnTenhoCerteza" class="btn-principal">TENHO CERTEZA</button>
+                <button id="btnVoltar" class="btn-secundario">NÃO TENHO CERTEZA, VOLTAR</button>
+            </div>
+        </div>
+
+        <div id="etapaFinal" class="etapa">
+            <h2 class="titulo-final">🎉 Bela escolha, Mamãe! 🎉</h2>
+            <p class="mensagem-final" id="mensagemFinal"></p>
+        </div>
+
+        <p class="nota">Feito com muito amor pela sua Família.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
