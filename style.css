@@ -127,3 +127,7 @@ h1 {
     font-size: 0.8em;
     color: #999;
 }
+#mensagemFinal {
+    display: block !important;
+    padding: 15px; 
+}
