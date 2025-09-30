@@ -120,11 +120,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnTenhoCerteza').addEventListener('click', () => {
         // Vai para a tela final
         mensagemFinal.innerHTML = `
-            Se arrume e fique mais bela ainda!<br>
+            <span style="font-size: 1.5em; color: #dc3545; font-weight: bold;">Bela escolha, mamãe!</span><br><br>
+            <span style="font-size: 1.8em; color: #007bff; font-weight: bold;">FELIZ DIA DOS TRADUTORES!!</span><br>
+            Se arrume e fique mais bela ainda! 🎉<br><br>
             Te esperamos **20h** no local escolhido:<br>
-            <span style="font-size: 1.5em; color: #dc3545; font-weight: bold;">${escolhaRestaurante}</span>!<br>
-            <br>
-            <span style="font-size: 1.8em; color: #007bff; font-weight: bold;">FELIZ DIA DOS TRADUTORES!</span>
+            <span style="font-size: 2em; color: #ffc107; font-weight: bold;">${escolhaRestaurante}</span>!
         `;
         mostrarEtapa(5); // Etapa Final
     });
